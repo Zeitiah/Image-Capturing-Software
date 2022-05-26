@@ -1,13 +1,6 @@
-//
-//  ImageSnap.h
-//  ImageSnap
-//
-//  Created by Robert Harder on 9/10/09.
-//
-
 #import <AVFoundation/AVFoundation.h>
 #import <Cocoa/Cocoa.h>
-#include "ImageSnap.h"
+#include "image_capture.h"
 
 #define error(...) (fprintf(stderr, __VA_ARGS__) && fflush(stderr))
 #define console(...) (!g_quiet && printf(__VA_ARGS__) && fflush(stdout))

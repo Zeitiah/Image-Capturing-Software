@@ -1,15 +1,8 @@
-//
-//  ImageSnap.m
-//  ImageSnap
-//
-//  Created by Robert Harder on 9/10/09.
-//
-
-#import "ImageSnap.h"
+#import "image_capture.h"
 
 NSString *const VERSION = @"0.2.14";
 
-@interface ImageSnap()
+@interface image_capture()
 
 @property (nonatomic, strong) AVCaptureSession *captureSession;
 @property (nonatomic, strong) AVCaptureDeviceInput *captureDeviceInput;

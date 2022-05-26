@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import "ImageSnap.h"
+#import "image_capture.h"
 
 int processArguments(int argc, const char * argv[]);
 void printUsage(int argc, const char * argv[]);
